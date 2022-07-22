@@ -1,0 +1,110 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive, Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+    background: rgb(203,203,203);
+    background: linear-gradient(357deg, rgba(203,203,203,1) 50%, rgba(172,148,26,1) 100%);
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+#logo {
+    margin:10px;
+    width: 150px;
+    border-radius:50%;
+    border:6px solid #cbcbcb;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 2px 2px 2px black;
+}
+
+
+.bday-age {
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+    background: rgb(206, 201, 112);
+
+}
+
+.bday-date {
+    margin: 0;
+    background: rgb(206, 201, 112);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+
+.gift-section {
+
+    margin-top: 50px;
+}
+
+.gift-box {
+    margin: 20px auto;
+    border-radius: 5px;
+    border: 6px solid #ac941a;
+    height: 400px;
+    max-width: 400px;;
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+}
+
+.wish {
+    margin-bottom: 10px;
+}
+.instruction {
+     margin-top: 0px;
+}
+
+#gift-box-happy:hover {
+    background-image: url("images/happy-giphy.gif");
+    background-size: cover;
+}
+
+#gift-box-react:hover {
+    background-image: url("images/handsome-giphy.gif");
+    background-size: cover;
+}
+
+#gift-box-genius:hover {
+    background-image: url("images/genius-giphy.gif");
+    background-size: cover;
+}
+
+#gift-box-badass:hover {
+    background-image: url("images/badass-giphy.gif");
+    background-size: cover;
+
+}
+#gift-box-cheers {
+    height: 200px;
+
+}
+#gift-box-cheers:hover {
+    background-image: url("images/cheers-giphy.gif") ;
+    background-size: cover;
+}
+
+#footer {
+    font-style: italic;
+    margin: 40px auto 20px;
+    max-width: 400px;
+    background-color: #ac941a3b;
+    border-radius: 5px;
+}
+
+a {
+    color:white;
+}
+a:hover {
+    color:#ac941a;
+    text-shadow: 5px 5px 4px;
+}
